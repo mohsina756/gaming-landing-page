@@ -36,13 +36,29 @@ h1 span{
     background-color: #ff42a5;
     color: #FFFFFF;
     border: 0;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .banner{
     display: flex;
     align-items: center;
 }
-div img{
-    display: flex;
+.banner-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.banner > i{
+    font-size: 2rem;
+}
+.div img{
     justify-content: space-between;
     align-items: center;
+    margin: 10px;
+}
+.img{
+    width: 650px;
+}
+/* gamer */
+.div gamer1{
+    display: flex;
 }
